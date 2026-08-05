@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log*
+coverage/
+
+# Configurações e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ESP-IDF
+firmware/**/build/
+firmware/**/managed_components/
+firmware/**/sdkconfig
+firmware/**/sdkconfig.old
+firmware/**/main/secrets.h
+
+# Editores e sistema operacional
+.vscode/settings.json
+.DS_Store
+Thumbs.db
